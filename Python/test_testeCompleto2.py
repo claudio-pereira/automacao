@@ -152,7 +152,7 @@ class TestTesteCompleto():
     # 64 | storeValue | css=.freebirdFormviewerViewItemsDateDateInputs .quantumWizTextinputPaperinputInput | 'dia' | #
     self.vars["'\'(str(dia))'\'"] = self.driver.find_element(By.CSS_SELECTOR, ".freebirdFormviewerViewItemsDateDateSelectionInput:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").send_keys(str(dia))
     # 65 | storeValue | css=.freebirdFormviewerViewItemsDateDateInputs .quantumWizTextinputPaperinputInput | 'mes' | #
-    self.vars["\'(str(mes))\'"] = self.driver.find_element(By.CSS_SELECTOR, "div.freebirdFormviewerViewItemsDateDateSelectionInput:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").send_keys(str(mes))
+    self.vars["\'(str(mes))\'"] = self.driver.find_element(By.CSS_SELECTOR, ".freebirdFormviewerViewItemsDateDateSelectionInput:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)").send_keys(str(mes))
     # 66 | storeValue | css=.freebirdFormviewerViewItemsDateDateInputs .quantumWizTextinputPaperinputInput | 'ano' | #
     self.vars["\'(str(ano))\'"] = self.driver.find_element(By.CSS_SELECTOR, ".freebirdFormviewerViewItemsDateDateInputs .quantumWizTextinputPaperinputInput").get_attribute(str(ano))
     # 67 | echo | $dia/$mes/$ano |  | #
