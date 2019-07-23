@@ -1290,3 +1290,22 @@ JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.k4y
 1563813059315	Marionette	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.k4y2NcBwf2I.O/d=1/rs=AMjVe6hCyThud6CMVTaK5OKEyRXTs7eGIg/m=viewer_base line 590 > eval, line 4: ReferenceError: chrome is not defined
 1563813079894	Marionette	INFO	Stopped listening on port 37847
+1563915863393	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.WXxeqnPTBjDW"
+1563915865409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563915865409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563915865409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563915865409	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563915868541	Marionette	INFO	Listening on port 39759
+1563915868636	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563915887806	Marionette	INFO	Stopped listening on port 39759
+JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.cVjM6mP78iQ.O/d=1/rs=AMjVe6iMZpiMpjmZZ6AoVs7sMcGP_lp9yg/m=viewer_base line 592 > eval, line 4: ReferenceError: chrome is not defined
+[Child 9960, Chrome_ChildThread] WARNING: pipe error: Pipe quebrado: file /build/firefox-oTXxYK/firefox-68.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 727
+1563916026093	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3NdzEP04UWRA"
+1563916026756	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563916026756	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563916026757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563916026757	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563916029667	Marionette	INFO	Listening on port 36457
+1563916029711	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563916049173	Marionette	INFO	Stopped listening on port 36457
+JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.cVjM6mP78iQ.O/d=1/rs=AMjVe6iMZpiMpjmZZ6AoVs7sMcGP_lp9yg/m=viewer_base line 592 > eval, line 4: ReferenceError: chrome is not defined
