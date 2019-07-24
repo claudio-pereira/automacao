@@ -1309,3 +1309,29 @@ JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.cVj
 1563916029711	Marionette	WARN	TLS certificate errors will be ignored for this session
 1563916049173	Marionette	INFO	Stopped listening on port 36457
 JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.cVjM6mP78iQ.O/d=1/rs=AMjVe6iMZpiMpjmZZ6AoVs7sMcGP_lp9yg/m=viewer_base line 592 > eval, line 4: ReferenceError: chrome is not defined
+1563919569323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cNrTnt0RNiVf"
+1563919576496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563919576496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563919576496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563919576496	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563919584845	Marionette	INFO	Listening on port 44729
+1563919584932	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221563895461669%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+1563919608704	Marionette	INFO	Stopped listening on port 44729
+JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.cVjM6mP78iQ.O/d=1/rs=AMjVe6iMZpiMpjmZZ6AoVs7sMcGP_lp9yg/m=viewer_base line 592 > eval, line 4: ReferenceError: chrome is not defined
+1563919949337	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dfz4U042aJYl"
+1563919951380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1563919951380	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1563919951381	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1563919951381	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1563919954147	Marionette	INFO	Listening on port 44425
+1563919954161	Marionette	WARN	TLS certificate errors will be ignored for this session
+1563919974063	Marionette	INFO	Stopped listening on port 44425
+JavaScript error: https://www.gstatic.com/_/freebird/_/js/k=freebird.v.pt_BR.cVjM6mP78iQ.O/d=1/rs=AMjVe6iMZpiMpjmZZ6AoVs7sMcGP_lp9yg/m=viewer_base line 592 > eval, line 4: ReferenceError: chrome is not defined
