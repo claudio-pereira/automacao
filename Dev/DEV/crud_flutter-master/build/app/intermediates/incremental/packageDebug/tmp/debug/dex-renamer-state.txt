@@ -1,0 +1,4 @@
+#Tue Sep 17 03:36:52 BRT 2019
+base.0=/home/claudio.pereira/DEV/crud_flutter-master/build/app/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex
